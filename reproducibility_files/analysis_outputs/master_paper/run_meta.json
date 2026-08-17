@@ -1,0 +1,26 @@
+{
+  "repeat_seeds": [
+    42,
+    101,
+    202,
+    303,
+    404
+  ],
+  "mlp_seeds": [
+    42,
+    123,
+    7,
+    13,
+    21
+  ],
+  "n_splits": 5,
+  "error_bar": "mean \u00b1 SD across replicates (notes.md \u00a71)",
+  "replicate_def": "deterministic: repeat\u00d7fold (n=25); MLP: repeat\u00d7fold\u00d7seed (n=125)",
+  "label_collision_groups": 8,
+  "python": "3.11.15",
+  "numpy": "2.4.5",
+  "pandas": "3.0.3",
+  "sklearn": "1.8.0",
+  "torch": "2.10.0",
+  "device": "mps"
+}

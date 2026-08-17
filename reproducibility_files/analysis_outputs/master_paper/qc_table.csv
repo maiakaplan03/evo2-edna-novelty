@@ -1,0 +1,8 @@
+rank,n_pos,n_neg_pool,prevalence_vs_pool
+Species,1582,25658,0.0581
+Genus,1590,25658,0.0584
+Family,1590,25658,0.0584
+Order,1590,25658,0.0584
+Phylum,1590,25658,0.0584
+Novelty,1590,25658,0.0584
+Noise,1590,25658,0.0584

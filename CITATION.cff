@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: >-
+  Novelty vs. contamination in eDNA reads from a genomic language
+  model's per-base surprise
+message: If you use this software or dataset, please cite it as below.
+type: software
+authors:
+  - given-names: Maia
+    family-names: Kaplan
+    affiliation: Universidad de Buenos Aires / IQUIBICEN
+repository-code: 'https://github.com/__GH_USER__/evo2-edna-novelty'
+abstract: >-
+  Code and data for distinguishing true evolutionary novelty from
+  contamination artefacts in hard-to-classify 313 bp COI eDNA reads,
+  using per-base negative log-likelihood profiles from the Evo2 (7B)
+  genomic language model. Includes a graded novelty simulation across
+  five taxonomic ranks, five contamination mechanisms, cluster-atomic
+  cross-validation, and a scalar-to-MLP capacity ladder.
+keywords:
+  - environmental DNA
+  - metabarcoding
+  - genomic language model
+  - Evo2
+  - perplexity
+  - contamination detection
+  - novelty detection
+license: MIT
+# Uncomment and fill in once the Zenodo archive is minted:
+# doi: 10.5281/zenodo.XXXXXXX

@@ -1,0 +1,26 @@
+# ---- generated artifacts -------------------------------------------------
+# The repository ships the large INPUTS gzipped (see README "Data"). These are
+# OUTPUTS the notebook regenerates on every run, so they are not tracked.
+reproducibility_files/analysis_outputs/master_paper/split_v2_seed*.csv
+reproducibility_files/analysis_outputs/**/figures/
+
+# Uncompressed twins of the tracked *.gz inputs. curated_paths._resolve() prefers
+# the plain file when it exists, so a local working tree may hold both; only the
+# .gz version belongs in git.
+reproducibility_files/**/group_kfold_v2.csv
+reproducibility_files/**/phase1_manifest.csv
+reproducibility_files/**/phase1_all_curated_v5.fasta
+reproducibility_files/**/per_base.jsonl
+
+# ---- python --------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+env/
+*.egg-info/
+
+# ---- os / editor ---------------------------------------------------------
+.DS_Store
+.vscode/
+.idea/
