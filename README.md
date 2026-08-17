@@ -97,7 +97,7 @@ reproducibility_files/
 ## Reproducing
 
 ```bash
-git clone https://github.com/__GH_USER__/evo2-edna-novelty.git
+git clone https://github.com/maiakaplan03/evo2-edna-novelty.git
 cd evo2-edna-novelty
 pip install numpy pandas matplotlib scikit-learn biopython torch
 jupyter lab reproducibility_files/notebooks/DL_project_handin_Kaplan_Maia.ipynb   # Run All

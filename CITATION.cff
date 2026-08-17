@@ -8,7 +8,7 @@ authors:
   - given-names: Maia
     family-names: Kaplan
     affiliation: Universidad de Buenos Aires / IQUIBICEN
-repository-code: 'https://github.com/__GH_USER__/evo2-edna-novelty'
+repository-code: 'https://github.com/maiakaplan03/evo2-edna-novelty'
 abstract: >-
   Code and data for distinguishing true evolutionary novelty from
   contamination artefacts in hard-to-classify 313 bp COI eDNA reads,
