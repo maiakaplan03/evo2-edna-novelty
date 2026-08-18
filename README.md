@@ -1,5 +1,8 @@
 # Novelty vs. contamination in eDNA reads, from a genomic language model's per-base surprise
 
+**[→ Read the full notebook, rendered](https://maiakaplan03.github.io/evo2-edna-novelty/)** — every
+cell, all 8 figures, and the markdown explanations, as a static page (no Jupyter required).
+
 **Can a DNA foundation model tell an unknown species from a broken read?**
 
 When environmental-DNA (eDNA) metabarcoding returns a read that no reference database
@@ -77,11 +80,29 @@ Three things this says:
 
 ---
 
+## Figures
+
+![Per-base perplexity rises with evolutionary divergence; contamination stays low](figures/fig1_perbase_perplexity.png)
+
+*Fig 1 — per-base perplexity (`exp(NLL)`) along the 311-bp read, novelty gradient vs. the five
+contamination mechanisms. Novelty pushes the whole profile up as divergence increases;
+contamination stays near the reference baseline throughout.*
+
+![Detection improves with divergence; near-novelty is the hard regime](figures/fig3_divergence_boundary.png)
+
+*Fig 3 — AUROC against the shared contamination pool, per taxonomic rank of simulated novelty.
+Species and Genus are the informative regime; a single scalar (mean NLL) is at or below chance
+there, and the full 311-position profile (logistic / MLP) is what recovers the signal.*
+
+---
+
 ## What is in this repository
 
 ```
 DL_project_handin_Kaplan_Maia.ipynb   read-only copy, all outputs saved
 project_paper_Kaplan_Maia.pdf         the written report
+figures/                              Fig 1 + Fig 3 as standalone PNGs (embedded above)
+docs/                                 rendered notebook (GitHub Pages, static HTML)
 reproducibility_files/
   notebooks/DL_project_handin_...ipynb  <- RUN THIS ONE (paths resolve from here)
   reference_code/                       4 modules the notebook imports
