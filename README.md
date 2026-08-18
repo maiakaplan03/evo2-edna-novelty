@@ -1,7 +1,7 @@
 # Novelty vs. contamination in eDNA reads, from a genomic language model's per-base surprise
 
-**[→ Read the full notebook, rendered](https://maiakaplan03.github.io/evo2-edna-novelty/)** — every
-cell, all 8 figures, and the markdown explanations, as a static page (no Jupyter required).
+**[→ Read the full notebook](https://github.com/maiakaplan03/evo2-edna-novelty/blob/main/DL_project_handin_Kaplan_Maia.ipynb)** — every
+cell, all 8 figures, and the markdown explanations, rendered right here on GitHub.
 
 **Can a DNA foundation model tell an unknown species from a broken read?**
 
